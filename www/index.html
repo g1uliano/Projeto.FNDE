@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Bolsa FNDE</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Loading Bootstrap -->
+    <link href="css/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Loading Flat UI -->
+    <link href="css/flat-ui.min.css" rel="stylesheet">
+    <link href="css/basico.css" rel="stylesheet">
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
+    <!--[if lt IE 9]>
+      <script src="js/vendor/html5shiv.js"></script>
+      <script src="js/vendor/respond.min.js"></script>
+    <![endif]-->
+    <!-- jQuery (necessary for Flat UI's JavaScript plugins) -->
+    <script type="text/javascript" charset="utf-8" src="cordova.js"></script>        
+    <script src="js/vendor/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->    
+    <script src="js/flat-ui.min.js"></script>        
+    <script src="js/fnde.js"></script>
+  </head>
+  <body>
+    <div class="container">        
+        <div class="row" id="pesquisar-bolsa">
+            <h1>Bolsa FNDE</h1>
+            <form>
+            <div class="form-group">
+                <div class="form-group has-success">
+                    <input type="number" value="" id="cpf" placeholder="Digite seu CPF" class="form-control" />
+                    <span class="input-icon fui-check-inverted"></span>
+                </div>
+            </div>
+            <a href="#" id="consultar" class="btn btn-block btn-lg btn-primary fui-check-circle"> Consultar Benefício</a>
+            </form>
+            <div id="progresso"></div>
+            <div id="conteudo"></div>
+            <div id="detalhar"><a href="#" id="exec-detalhar" class="btn btn-block btn-lg btn-primary fui-list"> Detalhar</a> <br /></div>
+       </div>
+    </div>
+    <!-- /.container -->
+  </body>
+</html>

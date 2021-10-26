@@ -1,0 +1,25 @@
+#pesquisar-bolsa {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#pesquisar-bolsa h1 {
+    text-align: center;
+}
+#cpf {
+    text-align: center;
+}
+#conteudo {
+    margin-top: 20px;
+    text-align: center;
+}
+th, td { padding: 5px; text-align:center; }
+table { border-collapse: separate; border-spacing: 5px; } /* cellspacing="5" */
+table { border-collapse: collapse; border-spacing: 0; }   /* cellspacing="0" */
+th, td { vertical-align: top; }
+table { margin: 0 auto; }
+tr:nth-child(even) {
+    background-color: #ECF0F1;
+}
+tr:nth-child(odd) {
+    background-color: #BDC3C7;
+}

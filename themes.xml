@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+<color name="my_theme_color">#109d8f</color>
+<style name="MyTheme" parent="android:Theme.NoTitleBar">
+<item name="android:windowBackground">@color/my_theme_color</item>
+<item name="android:colorBackground">@color/my_theme_color</item> </style>
+</resources>
